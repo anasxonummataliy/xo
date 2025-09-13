@@ -6,6 +6,28 @@
 #root{
     width: 600px;
     height: 600px;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 100px auto;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    overflow: hidden;
+    
+    div{
+        border: 1px solid black;
+        
+    }
+}
+.x{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width: 150px;
+    }
 }
